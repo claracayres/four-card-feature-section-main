@@ -2,18 +2,6 @@
 
 This is my solution to the [Four card feature section challenge](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK) on Frontend Mentor. This challenge helped me practice building responsive layouts using HTML and CSS.
 
-## 📑 Table of Contents
-
-- [Overview](#overview)
-  - [The Challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My Process](#my-process)
-  - [Built With](#built-with)
-  - [What I Learned](#what-i-learned)
-
----
-
 ## 📌 Overview
 
 This project is a solution to the Four card feature section challenge on Frontend Mentor. The goal was to recreate a responsive layout showcasing four features, using semantic HTML and modern CSS techniques like Grid and Flexbox.
@@ -89,4 +77,15 @@ One of the main things I practiced in this challenge was combining CSS Grid and 
 }
 ```
 ---
-Built by Clara Cayres 💜
+
+## 🙋‍♀️ Author
+
+- GitHub - [@claracayres](https://github.com/claracayres)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/claracayres)
+- LinkedIn - [Your Name](https://www.linkedin.com/in/maria-clara-cayres-de-almeida)
+
+## 🎯 Acknowledgments
+
+Thanks to [Frontend Mentor](https://www.frontendmentor.io) for providing such amazing challenges that help developers practice real-world skills!
+
+---
