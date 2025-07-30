@@ -131,9 +131,17 @@ h1 {
   align-self: center;
   border-top: var(--Blue) solid 3px;
 }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: var(--Grey-400);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
 
 @media (max-width: 767px) {
-  h1{
+  h1 {
     font-size: 1.3rem;
   }
   .bold {
