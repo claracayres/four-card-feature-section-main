@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --Grey-500: hsl(234, 12%, 34%);
+  --Grey-400: hsl(212, 6%, 44%);
+  --White: hsl(0, 0%, 100%);
+
+  --font-size: 15px;
+  --font-weight: 400;
+  --font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  /* outline: red solid 1px; */
+}
+
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-flow: column wrap;
+  padding: 10px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+.hero {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+h1 {
+  font-weight: 200;
+  color: var(--Grey-500);
+}
+
+.bold {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--Grey-500);
+}
+
+.hero p {
+  font-size: var(--font-size);
+  color: var(--Grey-500);
+  margin: 20px 0;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 30px;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  border-radius: 4px;
+  padding: 20px;
+  height: 250px;
+  box-shadow: 0 10px 20px 5px hsl(234, 12%, 34%, 0.2);
+}
+
+.card h2 {
+  font-size: 1.3rem;
+  color: var(--Grey-500);
+  font-weight: 600;
+}
+
+.card p {
+  font-size: var(--font-size);
+  color: var(--Grey-400);
+  margin-bottom: 20px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.first {
+  grid-column: 1;
+  grid-row: 1 / 3;
+  align-self: center;
+  border-top: var(--Cyan) solid 3px;
+}
+
+.second {
+  grid-column: 2;
+  grid-row: 1;
+  border-top: var(--Red) solid 3px;
+}
+.third {
+  grid-column: 2;
+  grid-row: 2;
+  border-top: var(--Orange) solid 3px;
+}
+
+.fourth {
+  grid-column: 3;
+  grid-row: 1 / 3;
+  align-self: center;
+  border-top: var(--Blue) solid 3px;
+}
+
+@media (max-width: 767px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+  }
+  .first {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .second {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .third {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .fourth {
+    grid-column: 1;
+    grid-row: 4;
+  }
+}
