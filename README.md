@@ -36,7 +36,7 @@ Users should be able to:
 
 #### Desktop
 
-![Desktop](/images/desktop.png)
+![Desktop](images/desktop.png)
 
 #### Mobile
 
