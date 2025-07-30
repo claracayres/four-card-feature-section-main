@@ -8,7 +8,6 @@
   --Grey-400: hsl(212, 6%, 44%);
   --White: hsl(0, 0%, 100%);
 
-  --font-size: 15px;
   --font-weight: 400;
   --font-family: "Poppins", sans-serif;
 }
@@ -23,12 +22,17 @@
 
 html,
 body {
+  margin: auto auto;
+  min-height: 100vh;
+  background-color: rgba(240, 239, 239, 0.362);
+  color: rgba(240, 239, 239, 0.362);
+}
+
+body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   flex-flow: column wrap;
-  padding: 10px;
 }
 
 section {
@@ -36,6 +40,8 @@ section {
   justify-content: center;
   align-items: center;
   flex-flow: column wrap;
+  width: 100%;
+  padding: 20px;
 }
 .hero {
   width: 100%;
@@ -43,12 +49,13 @@ section {
   text-align: center;
 }
 h1 {
+  font-size: 2.5rem;
   font-weight: 200;
   color: var(--Grey-500);
 }
 
 .bold {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 600;
   color: var(--Grey-500);
 }
@@ -74,12 +81,15 @@ h1 {
   text-align: left;
   border-radius: 4px;
   padding: 20px;
+  width: 100%;
+  max-width: 350px;
   height: 250px;
+  background-color: var(--White);
   box-shadow: 0 10px 20px 5px hsl(234, 12%, 34%, 0.2);
 }
 
 .card h2 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: var(--Grey-500);
   font-weight: 600;
 }
@@ -123,6 +133,12 @@ h1 {
 }
 
 @media (max-width: 767px) {
+  h1{
+    font-size: 1.3rem;
+  }
+  .bold {
+    font-size: 1.3rem;
+  }
   .cards-grid {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
