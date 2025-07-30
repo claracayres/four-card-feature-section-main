@@ -44,8 +44,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [View on GitHub](https://github.com/your-username/your-repo)
-- Live Site URL: [View Live Site](https://your-username.github.io/your-repo)
+- Solution URL: [View on GitHub](https://github.com/claracayres/four-card-feature-section-main)
+- Live Site URL: [View Live Site](https://claracayres.github.io/four-card-feature-section-main)
 
 ---
 
