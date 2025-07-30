@@ -11,7 +11,6 @@ This is my solution to the [Four card feature section challenge](https://www.fro
 - [My Process](#my-process)
   - [Built With](#built-with)
   - [What I Learned](#what-i-learned)
-- [Author](#author)
 
 ---
 
